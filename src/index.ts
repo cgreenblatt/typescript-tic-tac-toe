@@ -119,8 +119,8 @@ function init() {
       ["", "", ""]
     ];
     currentMove = "X";
-    renderBoard();
     winner = undefined;
+    renderBoard();
   });
   renderBoard();
 }
